@@ -1,5 +1,5 @@
 
-# Stefan Lugter
+# Stefan Lugter Godt
 
 ![Stefan lugter hårdt ](img/stefan_lugter.png)
 
