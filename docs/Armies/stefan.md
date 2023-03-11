@@ -1,7 +1,11 @@
 
-# Stefan Lugter
+# Authority
 
 ![Stefan lugter hårdt ](../img/stefan_lugter.png)
+
+## Write nice stuff
+
+Authority is nice gaem yes?
 
 # Welcome to MkDocs
 
