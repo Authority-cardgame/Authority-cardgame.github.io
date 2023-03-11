@@ -1,5 +1,5 @@
 
-# Authority
+# Rules
 
 ![Stefan lugter hårdt ](../img/stefan_lugter.png)
 
