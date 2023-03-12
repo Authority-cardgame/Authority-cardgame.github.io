@@ -1,5 +1,6 @@
 site_name: Authority cardgame
 theme:
+  favicon: img/Sword_and_Shield.png
   name: material
   palette:
     # Palette toggle for light mode
