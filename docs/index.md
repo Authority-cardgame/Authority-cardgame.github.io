@@ -2,6 +2,7 @@
 # Stefan Lugter Godt
 
 ![Stefan lugter hårdt ](img/stefan_lugter.png)
+Stefan og Claus, de er kærester. De har lavet spillet sammen. De håber at i hygger jer. 
 
 # Welcome to MkDocs
 
