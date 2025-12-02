@@ -8,8 +8,13 @@ theme:
     - navigation.footer
     - search.suggest
     - search.share
-  logo: img/Sword_and_Shield.png
-  favicon: img/Sword_and_Shield.png
+  # icons and logo
+  logo: assets/Sword_and_Shield.png
+  favicon: assets/Sword_and_Shield.png
+  # TODO tell stefan to change these icons to something better suited
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
   name: material
   palette:
     # Palette toggle for light mode
