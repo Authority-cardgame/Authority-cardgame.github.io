@@ -1,4 +1,5 @@
 site_name: Authority cardgame
+docs_dir: authority_docs
 theme:
   favicon: img/Sword_and_Shield.png
   name: material

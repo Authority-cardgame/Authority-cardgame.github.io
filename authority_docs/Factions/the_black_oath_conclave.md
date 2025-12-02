@@ -1,6 +1,8 @@
-# Royal Soldiers
+# The Plagueclaw Brigade
 
 ## Theme
+
+they suck, maybe, no 
 
 ## Strengths  
 
