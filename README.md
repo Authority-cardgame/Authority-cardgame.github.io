@@ -4,8 +4,7 @@ This repo is configured as a simple Python/Markdown site project using `uv` for 
 
 **Prerequisites**
 - Python 3.8+
-- `curl` (for installer scripts) or PowerShell on Windows
-
+  
 **Install `uv`**
 
 Windows (PowerShell)
@@ -44,21 +43,9 @@ source .venv/bin/activate
 If your project declares dependencies in `pyproject.toml`, install them using uv's pip wrapper. Example (explicit install):
 
 ```bash
-# install MkDocs for local debugging (or install your project if pyproject defines deps)
-uv pip install mkdocs mkdocs-material
-
-# or install the local project (if pyproject.toml has dependencies)
+# install project dependencies
 uv pip install .
 ```
-
-Create a lock file (package.lock) using uv:
-
-```bash
-# produce a lock of installed packages using uv's pip
-uv pip freeze > package.lock
-```
-
-Commit `package.lock` to track exact dependency versions.
 
 **Quick MkDocs guide (local debugging)**
 From project root with venv activated:
@@ -70,22 +57,3 @@ mkdocs serve
 uv pip run mkdocs serve
 ```
 Open http://127.0.0.1:8000 in a browser.
-
-- Build the static site:
-```bash
-mkdocs build -d site
-```
-
-The built site will be in the `site/` directory (this is what GitHub Pages will host).
-
-**Git ignore recommendations**
-Ensure the following (or similar) entries exist in `.gitignore`:
-- `.venv/`
-- `site/`
-- `package.lock` (if you prefer not to commit it) — otherwise keep it tracked
-
-**Troubleshooting**
-- If `uv` is not on PATH after install, restart your terminal.
-- Use the `uv pip` wrapper so the pip operations run inside the uv-managed venv.
-
-That's it — use `uv venv`, `uv pip install ...`, `uv pip freeze > package.lock`, and `mkdocs serve` for local debugging.
