@@ -1,6 +1,12 @@
 site_name: Authority cardgame
 docs_dir: authority_docs
+
 theme:
+  features:
+    - content.action.edit
+    - content.action.view
+    - navigation.footer
+  logo: img/Sword_and_Shield.png
   favicon: img/Sword_and_Shield.png
   name: material
   palette:
