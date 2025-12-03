@@ -1,4 +1,4 @@
-# The Plagueclaw Brigade
+# Children of Marlrator
 
 ## Theme
 

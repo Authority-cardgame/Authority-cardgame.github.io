@@ -1,4 +1,4 @@
-# The Black Oath Conclave
+# The Plagueclaw Brigade
 
 ## Theme
 
