@@ -1,6 +1,30 @@
 site_name: Authority cardgame
 docs_dir: authority_docs
 
+nav:
+  - Home: index.md
+  - Factions:
+    - Overview: Factions/overview.md
+    - Royal Soldiers: Factions/royal_soldiers.md
+    - Bloodrunners: Factions/bloodrunners.md
+    - Iron Wall: Factions/iron_wall.md
+    - House of Golden Ox: Factions/house_of_golden_ox.md
+    - Hooded Brothers: Factions/hooded_brothers.md
+    - The Black Oath Conclave: Factions/the_black_oath_conclave.md
+    - The Dark Brotherhood: Factions/the_dark_brotherhood.md
+    - The Plagueclaw Brigade: Factions/the_plagueclaw_brigade.md
+    - Sparkstone Syndicate: Factions/sparkstone_syndicate.md
+  - Rules:
+    - Setup: Rules/setup.md
+    - Core Actions: Rules/core_actions.md
+    - Combat: Rules/combat.md
+    - Market: Rules/market.md
+    - Abilities: Rules/abilities.md
+    - Modes & Advanced: Rules/modes.md
+  - Reference:
+    - Glossary: glossary.md
+    - Appendix: appendix.md
+
 theme:
   features:
     - content.action.edit
